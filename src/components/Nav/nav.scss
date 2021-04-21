@@ -1,0 +1,16 @@
+.nav-portfolio{
+
+    padding: 1rem;
+    background-color: #253d41;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+
+    .nav-portfolio-link{
+        padding: 1rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        color: #253d41;
+        background-color: #26e1df;
+    }
+}

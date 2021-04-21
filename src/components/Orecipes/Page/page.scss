@@ -1,0 +1,9 @@
+@import '../vars';
+
+.page {
+  margin-left: $navWidth;
+
+  .page-content {
+    padding: 1em;
+  }
+}

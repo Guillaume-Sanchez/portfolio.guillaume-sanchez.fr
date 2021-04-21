@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: .htaccess
+allow: /css/
+allow: /js/
+Sitemap: https://www.guillaume-sanchez.fr/sitemap_index.xml

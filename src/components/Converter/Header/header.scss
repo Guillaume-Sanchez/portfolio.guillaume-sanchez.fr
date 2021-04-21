@@ -1,0 +1,25 @@
+@import '../vars';
+
+.Converter_header {
+  background-color: $mainColor;
+  color: $lightColor;
+  padding: $gutter * 2;
+
+  .Converter_header-title {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .Converter_header-amount {
+    margin-top: $gutter;
+  }
+
+  .Converter_header-input {
+    background-color: $altColor;
+    margin-top: $gutter;
+    max-width: 10rem;
+    height: 2rem;
+    padding-left: 1rem;
+    border: 0;
+  }
+}

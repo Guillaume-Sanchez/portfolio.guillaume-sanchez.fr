@@ -1,0 +1,25 @@
+@import '../vars';
+
+.GitHubApi_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .GitHubApi_card{
+        margin: $gutter / 2;
+        width: 268px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .GitHubApi_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        .GitHubApi_card{
+            width: 268px;
+        }
+    }
+}

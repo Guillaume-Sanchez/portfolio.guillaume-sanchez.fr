@@ -1,0 +1,54 @@
+.error{
+
+    margin: 5rem auto;
+    width: 900px;
+    text-align: center;
+
+    .error-title{
+
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px black solid;
+
+    }
+
+    .error-content{
+
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+
+        & a{
+            color: #4c99d4;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+    .error-img{
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .error{
+    
+        margin: 5rem auto;
+        width: 100%;
+        text-align: center;
+    }   
+}
+
+@media only screen and (max-width: 427px) {
+    .error{
+
+        .error-img{
+            display: none;
+        }
+    }   
+}

@@ -1,0 +1,126 @@
+.mention {
+
+    margin: 5rem auto;
+    width: 900px;
+    text-align: center;
+
+    & a{
+        font-size: 1.5rem;
+        color: #4c99d4;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .mention-title {
+        text-align: left;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px black solid;
+    }
+
+    .mention-content {
+        text-align: left;
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+
+        & a{
+            color:#4c99d4;
+        }
+
+        .mailto{
+            text-overflow: ellipsis !important;
+        }
+    }
+
+    .mention-titre{
+        text-align: left;
+        text-decoration: underline;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+
+    }
+
+    .mention-ul{
+
+        text-align: left;
+        margin-bottom: 2.5rem;
+
+        .mention-li{
+
+            font-size: 1.5rem;
+            padding: 1rem;
+            font-weight: 700;
+
+            & a{
+                color:#4c99d4;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .mention {
+
+        margin: 5rem auto;
+        width: 100%;
+    
+        .mention-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px black solid;
+        }
+    
+        .mention-content {
+            font-size: 1.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+    
+            & a{
+                color:#4c99d4;
+            }
+
+            .mailto{
+                text-overflow: ellipsis !important;
+            }
+        }
+    
+        .mention-titre{
+    
+            text-decoration: underline;
+            font-size: 2rem;
+            font-weight: 700;
+            padding-bottom: 1rem;
+    
+        }
+    
+        .mention-ul{
+    
+            margin-bottom: 2.5rem;
+    
+            .mention-li{
+    
+                font-size: 1rem;
+                padding: 1rem;
+                font-weight: 700;
+    
+                & a{
+                    color:#4c99d4;
+                }
+    
+            }
+        }
+    }
+
+}

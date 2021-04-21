@@ -1,0 +1,34 @@
+@import '../vars';
+
+.GitHubApi_header{
+
+    .GitHubApi_header-img{
+        width: $gutter * 5;
+        margin-top: $gutter /2 ;
+    }
+
+    .GitHubApi_search{
+        background-color: white;
+        padding: $gutter / 2;
+        margin: $gutter / 2;
+        border: 1px $borderColor solid;
+
+        .GitHubApi_search-container{
+            width: $gutter * 26;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .GitHubApi_header{
+    
+        .GitHubApi_search{
+    
+            .GitHubApi_search-container{
+                width: 100%;
+            }
+        }
+    }
+
+}

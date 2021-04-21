@@ -1,0 +1,16 @@
+@import '../vars';
+
+.amount {
+  background-color: $lightColor;
+  padding: $gutter * 2;
+
+  .amount-value {
+    font-weight: $fw-bold;
+    font-size: 2em;
+  }
+
+  .amount-currency {
+    font-size: 1.3em;
+    margin-top: $gutter;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    margin: 3em auto;
+    font-weight: 700;
+
+    & a{
+      color: black;
+      &:hover{
+        color: #4c99d4;
+        text-decoration: none;
+      }
+    }
+
+    .footer-reseaux{
+        margin-top: 1.5rem;
+        margin-left: 0.8rem;
+  
+        .footer-reseaux-link{
+          font-size: 2rem;
+          margin: 0.8rem;
+  
+          &:hover{
+            color: #4c99d4;
+          }
+        }
+      }
+}
